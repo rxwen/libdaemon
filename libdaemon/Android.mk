@@ -13,6 +13,7 @@ LOCAL_C_INCLUDES+= $(LOCAL_PATH)/..
 
 LOCAL_MODULE:=libdaemon
 
+LOCAL_MODULE_TAGS := eng
 LOCAL_EXPORT_C_INCLUDE_DIRS:= $(LOCAL_PATH)/..
 
 # -std=gnu99 -DHAVE_CONFIG_H -I. -I..  -I..   -g -O2 -pipe
